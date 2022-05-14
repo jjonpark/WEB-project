@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Elements</title>
+    <link rel="stylesheet" href="./main_6.css">
+</head>
+<body>
+    <img srcset="images/heropy_small.png 400w,
+          images/heropy_medium.png 700w,
+          images/heropy_large.png 1000w" 
+          src="images/heropy.png" 
+          alt="HEROPY" />
+
+    <img srcset="images/heropy_small.png 400w,
+                images/heropy_medium.png 700w,
+                images/heropy_large.png 1000w" 
+        sizes="(min-width: 1000px) 700px" 
+        src="images/heropy.png"
+        alt="HEROPY" />
+
+    <audio src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" 
+    controls
+    muted></audio>
+    <video src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+    controls
+    poster="./images/heropy.png"></video>
+
+    <figure>
+        <img src="./images/heropy.png" alt="heropy">
+        <figcaption>HEROPY 이미지 입니다! </figcaption>
+    </figure>
+
+    <p>우리 페이지야!</p> 
+    <img src="./images/heropy.png" alt="HEROPY">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/cryp8dAbsOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <div id="my-name">HEROPY!</div>
+    
+</body>
+</html>
