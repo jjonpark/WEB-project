@@ -1,0 +1,73 @@
+
+a:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: 0.4s;
+}
+.box:hover{
+    width: 200px;
+}
+.box:active{
+    width: 300px;
+    background-color: yellowgreen;
+}
+input{
+    width: 100px;
+    outline: none;
+    border: 1px solid lightgrey;
+    padding: 5px 10px;
+    transition: 0.4s;
+}
+input:focus{
+    border-color: red;
+    width: 200px;
+}
+.box-group :first-child{
+    color: red;
+    font-weight: bold;
+}
+.fruits{
+    font-size: 40px;
+}
+.fruits li:not(.strawberry){
+    color:red;
+}
+ul li::before{
+    content: "숫자";
+}
+ul li::after{
+    content: url(https://heropy.blog/css/images/vendor_icons/css3.png);
+}
+.disabled{
+    opacity: 0.2;
+}
+[disabled] {
+    opacity: 0.2;
+    color: red;
+}
+[type="password"] {
+    color: green;
+}
+[class$=success] {
+    color:green
+}
+[class$=danger] {
+    color: red
+}
+.container{
+    border:2px solid;
+    width: 600px;
+}
+.parent{
+    border:2px solid;
+    width: 300px;
+}
+.child{
+    border:2px solid;
+    width: 150px;
+}
