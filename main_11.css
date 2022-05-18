@@ -1,0 +1,26 @@
+body {
+    font-size: 14px;
+}
+p {
+    font-size: 60px;
+    font-style: italic;
+}
+div {
+    font-size: 30px;
+}
+.serif {
+    font-family: serif;
+}
+.san-serif {
+    font-family: sans-serif;
+}
+.monospace {
+    font-family: monospace;
+}
+.cursive {
+    font-family: cursive;
+}
+
+/* text_indent : 들여쓰기 
+lettert-spacing : 자간(-1px or 10px 등등..)
+word-spacing : 단어와 단어사이 간격 */
